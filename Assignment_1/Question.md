@@ -12,10 +12,10 @@ $\hat{x}$(0) = 10 m/s
 
 # Solution of part - 1
 
-$ x(t) = x(0)cos($w_{n}$t) + $\frac{$\hat{x}$}{$w_{n}$}$sin($w_{n}$t) $
+$$ x(t) = x(0)cos($w_{n}$t) + $\frac{$\hat{x}$}{$w_{n}$}$sin($w_{n}$t) $$
 where,
 
-$w_{n}$ = $$\frac{k}{m}$^{0.5}$ 
+$w_{n}$ = $$ $\frac{k}{m}$^{0.5} $$
 
 ![plot](./Part_1_Plot.png)
 
