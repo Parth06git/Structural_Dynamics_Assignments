@@ -18,7 +18,7 @@ for i in t:
     
 import matplotlib.pyplot as plt
 plt.plot(t, X)
-plt.title("Free vibration of the system")
+plt.title("Undamped Free vibration of the system")
 plt.xlabel("t")
 plt.ylabel("x(t)")
 plt.savefig("Part_1_Plot")
