@@ -1,6 +1,6 @@
 # Given Information
 
-m = 10 kg \br
+m = 10 kg
 k = 1000 N/m
 x(0) = 0.1 m
 $\hat{x}$(0) = 10 m/s
@@ -11,11 +11,12 @@ $\hat{x}$(0) = 10 m/s
 2. Plot the damped free vibration of the system considering under-damped, critical damped and over-damped conditions.
 
 # Solution of part - 1
-
-$$ x(t) = x(0)cos($w_{n}$t) + $\frac{$\hat{x}$}{$w_{n}$}$sin($w_{n}$t) $$
+```math
+x(t) = x(0)cos(w_n*t) + ($\hat{x}$(0) \over w_n)sin(w_n*t)
+```
 where,
 
-$w_{n}$ = $$ $\frac{k}{m}$^{0.5} $$
+$w_{n}$ = $ \sqrt{k \over m} $
 
 ![plot](./Part_1_Plot.png)
 
