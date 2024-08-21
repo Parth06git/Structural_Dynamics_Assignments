@@ -32,8 +32,8 @@ Calculation and plotting is done in Part_a.py file.
 $c_{cr}$ = $2\sqrt{km}$
 
 in this question, \
-<b> $c_{cr}$ = 200 Nm/s </b> \
-<b> $w_n$ = 10 $s^{-1}$ </b>
+$c_{cr}$ = 200 Nm/s \
+$w_n$ = 10 $s^{-1}$ 
 
 1. <b>For Under-damped condition:-</b>
 
