@@ -16,7 +16,9 @@ x(t) = x(0)cos(w_nt) + (\hat{x}(0)\w_n)sin(w_nt)
 ```
 where,
 
-$w_{n}$ = $ \sqrt{k \over m} $
+```math
+w_n = \sqrt{k/m}
+```
 
 ![plot](./Part_1_Plot.png)
 
