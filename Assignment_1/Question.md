@@ -12,7 +12,7 @@ $\hat{x}$(0) = 10 m/s
 
 # Solution of part - 1
 ```math
-x(t) = x(0)cos(w_n*t) + ($\hat{x}$(0) \over w_n)sin(w_n*t)
+x(t) = x(0)cos(w_nt) + (\hat{x}(0)\w_n)sin(w_nt)
 ```
 where,
 
