@@ -102,10 +102,12 @@ x(t) = e^{-4t}[0.12cos(9.16t) + 1.18sin(9.16t)] - 0.021sin(15t) - 0.02cos(15t)
 
 ## Part 2
 
-𝞫 = w/$w_n$  
+𝞫 = w / $w_n$  
 ξ = 0.4  
 $X_{st}$ = $F_0$ / k  
-$$ X_p = X_{st} \cdot \frac{1}{\sqrt{(1-\beta^2)^2 + (2\xi \beta)^2}} $$  
+```math
+X_p = X_{st} \cdot \frac{1}{\sqrt{(1-\beta^2)^2 + (2\xi \beta)^2}}
+```
 $R_d$ = $X_p$ / $X_{st}$  
 ϕ = $tan^{-1}$(-D/C)  
 
