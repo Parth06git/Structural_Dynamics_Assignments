@@ -10,7 +10,7 @@ for i in t:
     
 import matplotlib.pyplot as plt
 plt.plot(t, X)
-plt.title("Total Response for w = 15 rad/s")
+plt.title("Steady State Response for w = 15 rad/s")
 plt.xlabel("t")
 plt.ylabel("x(t)")
 plt.savefig("SSR_Q2_W15")
