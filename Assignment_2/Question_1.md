@@ -32,7 +32,7 @@ $w_n$ = 10 $s^{-1}$
 x(t) = 0.1cos(10t) + 0.967sin(10t) + 0.067sin(5t)
 
 so,  
-#### Total response = x(t) -> 0.1cos(10t) + 0.967sin(10t) + 0.067sin(5t)
+#### Total response -> x(t) = 0.1cos(10t) + 0.967sin(10t) + 0.067sin(5t)
 
 ![plot](./TR_Q1_W5.png)
 
