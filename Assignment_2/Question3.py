@@ -23,10 +23,10 @@ p = np.zeros_like(t)
 x = np.zeros_like(t)
 u_prev = 2
 x[0] = 0
-p[0] = force[0] - 400*u_prev - 350*x[0]
+p[0] = force[0] - 400*u_prev + 250*x[0]
 x[1] = p[0]/600
 for i in range(1, len(t)-1):
-    p[i] = force[i] - 400*x[i-1] - 350*x[i]
+    p[i] = force[i] - 400*x[i-1] + 250*x[i]
     x[i+1] = p[i]/600
 
 

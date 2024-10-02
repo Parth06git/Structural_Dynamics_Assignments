@@ -40,7 +40,7 @@ $\hat{\hat{x_0}}$ (acceleration) = 4
 $u_{-1}$ = 2  
 $\hat{k}$ = 600  
 a = 400  
-b = 350  
+b = -250  
 
 #### Initial Condition
 $x_0$ = 0  
