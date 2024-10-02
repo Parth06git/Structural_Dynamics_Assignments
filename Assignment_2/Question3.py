@@ -58,7 +58,7 @@ for i, ti in enumerate(t):
             when = i
             print(theoretical_disp[when])
     else:
-        theoretical_disp.append(np.exp(-0.2*(ti-td)) * (2.79*np.cos(Wd*(ti-td)) - 4.028*np.sin(Wd*(ti-td))))
+        theoretical_disp.append(np.exp(-0.2*(ti-td)) * (2.79*np.cos(Wd*(ti-td)) + 0.01583*np.sin(Wd*(ti-td))))
 
 plt.figure(figsize=(10, 6))
 plt.plot(t, u, label='Numerical (Interpolation of Excitation)', marker='+')

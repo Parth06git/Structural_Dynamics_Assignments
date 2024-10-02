@@ -57,7 +57,7 @@ if t > $t_d$ :
 $$ x(t) = e^{\frac{-c(t-t_d)}{2m}}[x^s(t_d)cos\omega_d(t-t_d) + \frac{1}{\omega_d}(\hat{x^s}(t_d) + \frac{c*x^s(t_d)}{2m})\cdot sin\omega_d(t-t_d)] $$
 
 ```math
-\hat{x^s}(t_d) = \frac{F_0}{k} \cdot \frac{e^{-\zeta\omega_nt_d}*\omega_d*sin(\omega_dt_d)}{1 - \zeta^2} = -5.392
+\hat{x^s}(t_d) = \frac{F_0}{k} \cdot \frac{e^{-\zeta\omega_nt_d}*\omega_d*sin(\omega_dt_d)}{1 - \zeta^2} = -0.539
 ```
 
 
