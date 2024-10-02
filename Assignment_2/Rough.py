@@ -24,7 +24,7 @@ A_prime = -np.exp(-zeta * omega_n * Delta_t) * (omega_n / np.sqrt(1 - zeta**2)) 
 
 B_prime = np.exp(-zeta * omega_n * Delta_t) * (np.cos(omega_D * Delta_t) - (zeta / np.sqrt(1 - zeta**2)) * np.sin(omega_D * Delta_t))
 
-C_prime = (1/k) * (1 / Delta_t - np.exp(-zeta * omega_n * Delta_t) * ((omega_n / np.sqrt(1 - zeta**2) + zeta / (Delta_t * np.sqrt(1 - zeta**2))) * np.sin(omega_D * Delta_t) + (1 / Delta_t) * np.cos(omega_D * Delta_t)))
+C_prime = -(1/k) * (1 / Delta_t - np.exp(-zeta * omega_n * Delta_t) * ((omega_n / np.sqrt(1 - zeta**2) + zeta / (Delta_t * np.sqrt(1 - zeta**2))) * np.sin(omega_D * Delta_t) + (1 / Delta_t) * np.cos(omega_D * Delta_t)))
 
 D_prime = (1 / (k * Delta_t)) * (1 - np.exp(-zeta * omega_n * Delta_t) * ((zeta / np.sqrt(1 - zeta**2)) * np.sin(omega_D * Delta_t) + np.cos(omega_D * Delta_t)))
 

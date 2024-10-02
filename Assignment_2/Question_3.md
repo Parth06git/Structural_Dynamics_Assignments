@@ -31,7 +31,7 @@ C = 0.0005
 D = 0.0003  
 A' = -0.94   
 B' = 0.168  
-C' = -0.0005  
+C' = 0.0005  
 D' = 0.0008  
 
 ## Central Difference Method Response
