@@ -35,7 +35,7 @@ C' = -0.0005
 D' = 0.0008  
 
 ## Central Difference Method Response
-![alt text](image-1.png)
+![alt text](image-1.png)  
 $\hat{\hat{x_0}}$ (acceleration) = 4  
 $u_{-1}$ = 2  
 $\hat{k}$ = 600  
@@ -56,6 +56,8 @@ if t > $t_d$ :
 
 $$ x(t) = e^{\frac{-c(t-t_d)}{2m}}[x^s(t_d)cos\omega_d(t-t_d) + \frac{1}{\omega_d}(\hat{x^s}(t_d) + \frac{c*x^s(t_d)}{2m})\cdot sin\omega_d(t-t_d)] $$
 
-$$ \hat{x^s}(t_d) = \frac{F_0}{k} \cdot \frac{e^{-\zeta\omega_nt_d}*\omega_d*sin(\omega_dt_d)}{1 - \zeta^2} = -5.392 $$
+```math
+\hat{x^s}(t_d) = \frac{F_0}{k} \cdot \frac{e^{-\zeta\omega_nt_d}*\omega_d*sin(\omega_dt_d)}{1 - \zeta^2} = -5.392
+```
 
 ![plot](./Question_3_plot.png)
