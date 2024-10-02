@@ -25,18 +25,19 @@ x_{i+1} = Ax_i + B\hat{x_i} + CF_i + DF_{i+1}
 ```math
 \hat{x}_{i+1} = A'x_i + B'\hat{x_i} + C'F_i + D'F_{i+1}
 ```
-A = 0.82  
-B = 0.014  
-C = -0.0013  
-D = 0.0191  
-A' = -0.0215   
-B' = 0.816  
-C' = -0.00021  
-D' = 0.0024  
+A = 0.42  
+B = 0.63  
+C = 0.0005  
+D = 0.0003  
+A' = -0.94   
+B' = 0.168  
+C' = -0.0005  
+D' = 0.0008  
 
 ## Central Difference Method Response
 ![alt text](image-1.png)
-
+$\hat{\hat{x_0}}$ (acceleration) = 4  
+$u_{-1}$ = 2  
 $\hat{k}$ = 600  
 a = 400  
 b = 350  
@@ -49,10 +50,12 @@ $\hat{x_0}$ = 0
 
 if t < $t_d$ :
 
-$$ x^s(t) = \frac{F_0}{k}(1-cos\omega_nt) = 2.67(1-cos1.22t) $$
+$$ x^s(t) = \frac{F_0}{k} [1- e^{-\zeta\omega_nt}(cos\omega_dt + \frac{\zeta}{\sqrt{1-\zeta^2}}sin\omega_dt)] $$
 
 if t > $t_d$ :
 
-$$ x(t) = \frac{F_0}{k}[cos\omega_n(t-t_d) - cos\omega_nt] = 2.67(cos1.22(t-9) - cos1.22t) $$
+$$ x(t) = e^{\frac{-c(t-t_d)}{2m}}[x^s(t_d)cos\omega_d(t-t_d) + \frac{1}{\omega_d}(\hat{x^s}(t_d) + \frac{c*x^s(t_d)}{2m})\cdot sin\omega_d(t-t_d)] $$
+
+$$ \hat{x^s}(t_d) = \frac{F_0}{k} \cdot \frac{e^{-\zeta\omega_nt_d}*\omega_d*sin(\omega_dt_d)}{1 - \zeta^2} = -5.392 $$
 
 ![plot](./Question_3_plot.png)
